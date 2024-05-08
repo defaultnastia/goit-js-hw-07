@@ -140,6 +140,14 @@ button {
   flex-direction: column;
   align-items: center;
 }
+
+.color-back {
+  background-color: #fff;
+  border-radius: 4px;
+  width: fit-content;
+  padding: 2px 4px;
+}
+
 /* #endregion TASK 5 */
 
 /* #region TASK 6 */
