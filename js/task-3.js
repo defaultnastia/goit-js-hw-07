@@ -2,9 +2,10 @@
 
 const nameInputEl = document.querySelector('#name-input');
 const nameOutputEl = document.querySelector('#name-output');
-nameInputEl.addEventListener('input', event => {
+function onUsernameInput(event) {
   nameOutputEl.textContent =
     event.currentTarget.value.trim() !== ''
       ? event.currentTarget.value.trim()
       : 'Anonymous';
-});
+}
+nameInputEl.addEventListener('input', onUsernameInput);
