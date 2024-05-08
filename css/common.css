@@ -39,7 +39,7 @@ button {
   cursor: pointer;
 }
 
-.default-input {
+.common-input {
   display: inline-flex;
   padding-left: 8px;
   width: 360px;
@@ -49,9 +49,9 @@ button {
   align-items: center;
 }
 
-.default-input:active,
-.default-input:hover,
-.default-input:focus {
+.common-input:active,
+.common-input:hover,
+.common-input:focus {
   border-color: black;
   outline: none;
 }
@@ -118,7 +118,7 @@ button {
   border-radius: 8px;
 }
 
-.login-form .default-input {
+.login-form .common-input {
   display: flex;
   flex-direction: column;
   margin: 8px 0px;
